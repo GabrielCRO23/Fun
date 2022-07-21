@@ -11,8 +11,6 @@ let ctx = canvas.getContext("2d");
 let particles = [];
 
 function drawScene() {
-  let g = document.createElement("canvas");
-  g.setAttribute("id", "scene");
   particles = [];
   canvas.width = png.width * 6;
   canvas.height = png.height * 6;
@@ -22,7 +20,7 @@ function drawScene() {
   const data = ctx.getImageData(0, 0, png.width, png.height);
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = "white";
+  ctx.fillStyle = "red";
 
   for (let y = 0, y2 = data.height; y < y2; y++) {
     for (let x = 0, x2 = data.width; x < x2; x++) {
