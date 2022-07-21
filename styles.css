@@ -2,12 +2,10 @@ body,html {
     margin: 0;
     font: bold 14px/1.4 'Open Sans', arial, sans-serif;
     background: #000;
-
     overflow: hidden;
   }
 
   h1 {
-    
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
