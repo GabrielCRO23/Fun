@@ -2,6 +2,6 @@
 
 John Xina
 
-gabrielcro23.github.io/Fun
+https://gabrielcro23.github.io/Fun
 
 Particle logic from Mamboleoo
